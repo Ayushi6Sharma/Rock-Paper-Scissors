@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissor</title>
+</head>
+<body>
+    <main>
+        <input type="text" data-ns-test="game-number" placeholder="Enter the Rounds">
+      <div><button type="button" data-ns-test="play-game">Play</button></div>
+      <div class="container">
+          <span class="options1">
+              <button type="button" data-ns-test="rock" value="0">Rock</button>
+              <button type="button" data-ns-test="paper" value="1">Paper</button>
+              <button type="button" data-ns-test="scissors" value="2">Scissor</button>
+          </span>
+      
+          <div>COMPUTER CHOOSE : <span data-ns-test="computer-choose"></span> </div>
+          <div>Round Result :  <span data-ns-test="round-result"></span> </div>
+          <div>Round Left :  <span data-ns-test="rounds-left"></span> </div>
+          <div> User Points : <span data-ns-test="user-points"></span> </div>
+          <div> Computer Points : <span data-ns-test="computer-points"></span> </div>
+      </div>
+      
+       <span data-ns-test="game-result"></span> 
+      
+      </main>
+    <script src="app.js"></script>
+</body>
+</html>
